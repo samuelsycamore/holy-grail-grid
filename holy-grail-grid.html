@@ -1,0 +1,19 @@
+<style>
+  .grid {
+    --min-column-width: min(320px, 100%);
+    display: grid;
+    grid-template-columns:
+      repeat(auto-fill, minmax(var(--min-column-width), 1fr));
+    gap: 16px;
+    padding: 16px;
+  }
+</style>
+
+<main class="grid">
+  <div class="item"></div>
+  <div class="item"></div>
+  <div class="item"></div>
+  <div class="item"></div>
+  <div class="item"></div>
+  <div class="item"></div>
+</main>
